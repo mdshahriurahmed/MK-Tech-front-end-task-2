@@ -15,11 +15,11 @@ import './Section2.css'
 
 const Section2 = () => {
     useEffect(() => {
-        Aos.init({ duration: 1700 });
+        Aos.init({ duration: 2000 });
     }, []);
     return (
         <div className='row mt-5 gap-5 px-3 extragap justify-content-lg-between justify-content-md-between justify-content-center mb-5' >
-            <Card data-aos="fade-up" data-aos-delay="0" style={{ width: '18rem' }} className='border-0 shadow shadow-md' >
+            <Card data-aos="fade-up" data-aos-delay="100" style={{ width: '18rem' }} className='border-0 shadow shadow-md' >
                 <Card.Img variant="top" src={aboutus} />
                 <Card.Body>
 
@@ -57,7 +57,7 @@ const Section2 = () => {
 
                 </Card.Body>
             </Card>
-            <Card data-aos="fade-up" data-aos-delay="200" style={{ width: '18rem' }} className='border-0 shadow shadow-md'>
+            <Card data-aos="fade-up" data-aos-delay="500" style={{ width: '18rem' }} className='border-0 shadow shadow-md'>
                 <Card.Img variant="top" src={product} />
                 <Card.Body>
 
@@ -96,7 +96,7 @@ const Section2 = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card data-aos="fade-up" data-aos-delay="500" style={{ width: '18rem' }} className='border-0 shadow shadow-md'>
+            <Card data-aos="fade-up" data-aos-delay="800" style={{ width: '18rem' }} className='border-0 shadow shadow-md'>
                 <Card.Img variant="top" src={client} />
                 <Card.Body>
 
@@ -130,7 +130,7 @@ const Section2 = () => {
 
                 </Card.Body>
             </Card>
-            <Card data-aos="fade-up" data-aos-delay="800" style={{ width: '18rem' }} className='border-0 shadow shadow-md'>
+            <Card data-aos="fade-up" data-aos-delay="1200" style={{ width: '18rem' }} className='border-0 shadow shadow-md'>
                 <Card.Img variant="top" src={download} />
                 <Card.Body>
 
