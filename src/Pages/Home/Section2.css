@@ -53,3 +53,8 @@ input:checked~h6~div.p {
     max-height: 400px;
     padding: 10px;
 }
+
+.extragap {
+
+    padding-bottom: 300px;
+}

@@ -18,7 +18,7 @@ const Section2 = () => {
         Aos.init({ duration: 1700 });
     }, []);
     return (
-        <div className='row mt-5 gap-5 px-3 justify-content-lg-between justify-content-md-between justify-content-center '>
+        <div className='row mt-5 gap-5 px-3 extragap justify-content-lg-between justify-content-md-between justify-content-center mb-5' >
             <Card style={{ width: '18rem' }} className='border-0 shadow shadow-md' >
                 <Card.Img variant="top" src={aboutus} />
                 <Card.Body>

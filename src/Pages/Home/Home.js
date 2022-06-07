@@ -5,7 +5,7 @@ import Slider from './Slider';
 
 const Home = () => {
     return (
-        <Container>
+        <Container >
             <Slider></Slider>
             <Section2></Section2>
         </Container>
